@@ -37,7 +37,8 @@ requiments
      
   step 3:
      python ASTEmbeddingLearner.py main_token_to_number_*.json  encoded_tokens_with_context_*.npy
-     ces fichiers sont ceux produit a l'etape precedente 
+     
+     main_token_to_number_*.json  encoded_tokens_with_context_*.npy sont des fichiers  produits a l'etape 2 
      
   on obtient le fichier: token_to_vector_1595511405913.json qui contient la representation vectoriel de chaque mot
   

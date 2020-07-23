@@ -47,7 +47,9 @@ requiments
 Executer les etapes suvantes  depuis le dossier cnn-text-classification :
 
   step 1 : entrainer le CNN
+  
      python train.py
      
   step 2 : evaluer le CNN
+  
      python eval.py

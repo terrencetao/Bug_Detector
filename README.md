@@ -19,7 +19,7 @@ requiments
       - subprocess32a
       -json
       
-*cnn-text-classification
+*CNN-TEST-CLASSIFICATION
 
    -numpy
    
@@ -27,7 +27,7 @@ requiments
    
 -Learning AST_EMBEDDING :
 --------------------------
-  se mettre dans  dossier AST_EMBEDDING
+  Executer les etapes suivantes depuis le dossier AST_EMBEDDING
   
   step 1: 
      python extractorOfIdsLitsWithASTFamily.py filepath 
@@ -44,7 +44,7 @@ requiments
   
 -Entrainer et Evaluer  CNN :
 --------------------------------
-se mettre dans le dossier cnn-text-classification :
+Executer les etapes suvantes  depuis le dossier cnn-text-classification :
 
   step 1 : entrainer le CNN
      python train.py

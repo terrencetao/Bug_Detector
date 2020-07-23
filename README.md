@@ -22,6 +22,7 @@ requiments
 *cnn-text-classification
 
    -numpy
+   
    -tensorflow version=1
    
 -Learning AST_EMBEDDING :

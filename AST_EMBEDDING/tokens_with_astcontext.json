@@ -1,0 +1,1216 @@
+[
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "",
+            "nephews": [
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "add_person",
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "people_in_room",
+                "t",
+                "vt",
+                "T",
+                "N",
+                "CursorKind.COMPOUND_STMT"
+            ],
+            "parent": "/home/yannick/Documents/implementation_2.0/Bug_Detector/AST_EMBEDDING/data/simple_demo.cpp",
+            "positionInGrandParent": -1,
+            "positionInParent": 0,
+            "siblings": [
+                "Room",
+                "Bag",
+                "main"
+            ],
+            "uncles": []
+        },
+        "token": "Person"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "",
+            "nephews": [
+                "T",
+                "N",
+                "CursorKind.COMPOUND_STMT"
+            ],
+            "parent": "/home/yannick/Documents/implementation_2.0/Bug_Detector/AST_EMBEDDING/data/simple_demo.cpp",
+            "positionInGrandParent": -1,
+            "positionInParent": 1,
+            "siblings": [
+                "Person",
+                "Bag",
+                "main"
+            ],
+            "uncles": []
+        },
+        "token": "Room"
+    },
+    {
+        "context": {
+            "cousins": [
+                "T",
+                "N",
+                "CursorKind.COMPOUND_STMT"
+            ],
+            "grandParent": "/home/yannick/Documents/implementation_2.0/Bug_Detector/AST_EMBEDDING/data/simple_demo.cpp",
+            "nephews": [
+                "person",
+                "CursorKind.COMPOUND_STMT",
+                "class Person",
+                "CursorKind.INTEGER_LITERAL"
+            ],
+            "parent": "Room",
+            "positionInGrandParent": 1,
+            "positionInParent": 0,
+            "siblings": [
+                "add_person",
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "people_in_room",
+                "t",
+                "vt"
+            ],
+            "uncles": [
+                "Person",
+                "Bag",
+                "main"
+            ]
+        },
+        "token": "CursorKind.CXX_ACCESS_SPEC_DECL"
+    },
+    {
+        "context": {
+            "cousins": [
+                "T",
+                "N",
+                "CursorKind.COMPOUND_STMT"
+            ],
+            "grandParent": "/home/yannick/Documents/implementation_2.0/Bug_Detector/AST_EMBEDDING/data/simple_demo.cpp",
+            "nephews": [
+                "class Person",
+                "CursorKind.INTEGER_LITERAL"
+            ],
+            "parent": "Room",
+            "positionInGrandParent": 1,
+            "positionInParent": 1,
+            "siblings": [
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "people_in_room",
+                "t",
+                "vt"
+            ],
+            "uncles": [
+                "Person",
+                "Bag",
+                "main"
+            ]
+        },
+        "token": "add_person"
+    },
+    {
+        "context": {
+            "cousins": [
+                "class Person",
+                "CursorKind.INTEGER_LITERAL"
+            ],
+            "grandParent": "Room",
+            "nephews": [],
+            "parent": "add_person",
+            "positionInGrandParent": 1,
+            "positionInParent": 0,
+            "siblings": [
+                "CursorKind.COMPOUND_STMT"
+            ],
+            "uncles": [
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "people_in_room",
+                "t",
+                "vt"
+            ]
+        },
+        "token": "person"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "add_person",
+            "nephews": [],
+            "parent": "person",
+            "positionInGrandParent": 0,
+            "positionInParent": 0,
+            "siblings": [],
+            "uncles": [
+                "CursorKind.COMPOUND_STMT"
+            ]
+        },
+        "token": "class Person"
+    },
+    {
+        "context": {
+            "cousins": [
+                "class Person",
+                "CursorKind.INTEGER_LITERAL"
+            ],
+            "grandParent": "Room",
+            "nephews": [
+                "class Person"
+            ],
+            "parent": "add_person",
+            "positionInGrandParent": 1,
+            "positionInParent": 1,
+            "siblings": [
+                "person"
+            ],
+            "uncles": [
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "people_in_room",
+                "t",
+                "vt"
+            ]
+        },
+        "token": "CursorKind.COMPOUND_STMT"
+    },
+    {
+        "context": {
+            "cousins": [
+                "T",
+                "N",
+                "CursorKind.COMPOUND_STMT"
+            ],
+            "grandParent": "/home/yannick/Documents/implementation_2.0/Bug_Detector/AST_EMBEDDING/data/simple_demo.cpp",
+            "nephews": [
+                "person",
+                "CursorKind.COMPOUND_STMT",
+                "class Person",
+                "CursorKind.INTEGER_LITERAL"
+            ],
+            "parent": "Room",
+            "positionInGrandParent": 1,
+            "positionInParent": 2,
+            "siblings": [
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "add_person",
+                "people_in_room",
+                "t",
+                "vt"
+            ],
+            "uncles": [
+                "Person",
+                "Bag",
+                "main"
+            ]
+        },
+        "token": "CursorKind.CXX_ACCESS_SPEC_DECL"
+    },
+    {
+        "context": {
+            "cousins": [
+                "T",
+                "N",
+                "CursorKind.COMPOUND_STMT"
+            ],
+            "grandParent": "/home/yannick/Documents/implementation_2.0/Bug_Detector/AST_EMBEDDING/data/simple_demo.cpp",
+            "nephews": [
+                "person",
+                "CursorKind.COMPOUND_STMT",
+                "CursorKind.INTEGER_LITERAL"
+            ],
+            "parent": "Room",
+            "positionInGrandParent": 1,
+            "positionInParent": 3,
+            "siblings": [
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "add_person",
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "t",
+                "vt"
+            ],
+            "uncles": [
+                "Person",
+                "Bag",
+                "main"
+            ]
+        },
+        "token": "people_in_room"
+    },
+    {
+        "context": {
+            "cousins": [
+                "person",
+                "CursorKind.COMPOUND_STMT",
+                "CursorKind.INTEGER_LITERAL"
+            ],
+            "grandParent": "Room",
+            "nephews": [],
+            "parent": "people_in_room",
+            "positionInGrandParent": 3,
+            "positionInParent": 0,
+            "siblings": [],
+            "uncles": [
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "add_person",
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "t",
+                "vt"
+            ]
+        },
+        "token": "class Person"
+    },
+    {
+        "context": {
+            "cousins": [
+                "T",
+                "N",
+                "CursorKind.COMPOUND_STMT"
+            ],
+            "grandParent": "/home/yannick/Documents/implementation_2.0/Bug_Detector/AST_EMBEDDING/data/simple_demo.cpp",
+            "nephews": [
+                "person",
+                "CursorKind.COMPOUND_STMT",
+                "class Person"
+            ],
+            "parent": "Room",
+            "positionInGrandParent": 1,
+            "positionInParent": 4,
+            "siblings": [
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "add_person",
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "people_in_room",
+                "vt"
+            ],
+            "uncles": [
+                "Person",
+                "Bag",
+                "main"
+            ]
+        },
+        "token": "t"
+    },
+    {
+        "context": {
+            "cousins": [
+                "person",
+                "CursorKind.COMPOUND_STMT",
+                "class Person"
+            ],
+            "grandParent": "Room",
+            "nephews": [],
+            "parent": "t",
+            "positionInGrandParent": 4,
+            "positionInParent": 0,
+            "siblings": [],
+            "uncles": [
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "add_person",
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "people_in_room",
+                "vt"
+            ]
+        },
+        "token": "CursorKind.INTEGER_LITERAL"
+    },
+    {
+        "context": {
+            "cousins": [
+                "T",
+                "N",
+                "CursorKind.COMPOUND_STMT"
+            ],
+            "grandParent": "/home/yannick/Documents/implementation_2.0/Bug_Detector/AST_EMBEDDING/data/simple_demo.cpp",
+            "nephews": [
+                "person",
+                "CursorKind.COMPOUND_STMT",
+                "class Person",
+                "CursorKind.INTEGER_LITERAL"
+            ],
+            "parent": "Room",
+            "positionInGrandParent": 1,
+            "positionInParent": 5,
+            "siblings": [
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "add_person",
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "people_in_room",
+                "t"
+            ],
+            "uncles": [
+                "Person",
+                "Bag",
+                "main"
+            ]
+        },
+        "token": "vt"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "",
+            "nephews": [
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "add_person",
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "people_in_room",
+                "t",
+                "vt",
+                "CursorKind.COMPOUND_STMT"
+            ],
+            "parent": "/home/yannick/Documents/implementation_2.0/Bug_Detector/AST_EMBEDDING/data/simple_demo.cpp",
+            "positionInGrandParent": -1,
+            "positionInParent": 2,
+            "siblings": [
+                "Person",
+                "Room",
+                "main"
+            ],
+            "uncles": []
+        },
+        "token": "Bag"
+    },
+    {
+        "context": {
+            "cousins": [
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "add_person",
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "people_in_room",
+                "t",
+                "vt",
+                "CursorKind.COMPOUND_STMT"
+            ],
+            "grandParent": "/home/yannick/Documents/implementation_2.0/Bug_Detector/AST_EMBEDDING/data/simple_demo.cpp",
+            "nephews": [],
+            "parent": "Bag",
+            "positionInGrandParent": 2,
+            "positionInParent": 0,
+            "siblings": [
+                "N"
+            ],
+            "uncles": [
+                "Person",
+                "Room",
+                "main"
+            ]
+        },
+        "token": "T"
+    },
+    {
+        "context": {
+            "cousins": [
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "add_person",
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "people_in_room",
+                "t",
+                "vt",
+                "CursorKind.COMPOUND_STMT"
+            ],
+            "grandParent": "/home/yannick/Documents/implementation_2.0/Bug_Detector/AST_EMBEDDING/data/simple_demo.cpp",
+            "nephews": [],
+            "parent": "Bag",
+            "positionInGrandParent": 2,
+            "positionInParent": 1,
+            "siblings": [
+                "T"
+            ],
+            "uncles": [
+                "Person",
+                "Room",
+                "main"
+            ]
+        },
+        "token": "N"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "",
+            "nephews": [
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "add_person",
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "people_in_room",
+                "t",
+                "vt",
+                "T",
+                "N"
+            ],
+            "parent": "/home/yannick/Documents/implementation_2.0/Bug_Detector/AST_EMBEDDING/data/simple_demo.cpp",
+            "positionInGrandParent": -1,
+            "positionInParent": 3,
+            "siblings": [
+                "Person",
+                "Room",
+                "Bag"
+            ],
+            "uncles": []
+        },
+        "token": "main"
+    },
+    {
+        "context": {
+            "cousins": [
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "add_person",
+                "CursorKind.CXX_ACCESS_SPEC_DECL",
+                "people_in_room",
+                "t",
+                "vt",
+                "T",
+                "N"
+            ],
+            "grandParent": "/home/yannick/Documents/implementation_2.0/Bug_Detector/AST_EMBEDDING/data/simple_demo.cpp",
+            "nephews": [],
+            "parent": "main",
+            "positionInGrandParent": 3,
+            "positionInParent": 0,
+            "siblings": [],
+            "uncles": [
+                "Person",
+                "Room",
+                "Bag"
+            ]
+        },
+        "token": "CursorKind.COMPOUND_STMT"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "main",
+            "nephews": [
+                "bagofpersons"
+            ],
+            "parent": "CursorKind.COMPOUND_STMT",
+            "positionInGrandParent": 0,
+            "positionInParent": 0,
+            "siblings": [
+                "CursorKind.DECL_STMT"
+            ],
+            "uncles": []
+        },
+        "token": "CursorKind.DECL_STMT"
+    },
+    {
+        "context": {
+            "cousins": [
+                "bagofpersons"
+            ],
+            "grandParent": "CursorKind.COMPOUND_STMT",
+            "nephews": [],
+            "parent": "CursorKind.DECL_STMT",
+            "positionInGrandParent": 0,
+            "positionInParent": 0,
+            "siblings": [],
+            "uncles": [
+                "CursorKind.DECL_STMT"
+            ]
+        },
+        "token": "p"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "CursorKind.DECL_STMT",
+            "nephews": [
+                "class Person",
+                "Person"
+            ],
+            "parent": "p",
+            "positionInGrandParent": 0,
+            "positionInParent": 0,
+            "siblings": [
+                "CursorKind.CXX_NEW_EXPR"
+            ],
+            "uncles": []
+        },
+        "token": "class Person"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "CursorKind.DECL_STMT",
+            "nephews": [],
+            "parent": "p",
+            "positionInGrandParent": 0,
+            "positionInParent": 1,
+            "siblings": [
+                "class Person"
+            ],
+            "uncles": []
+        },
+        "token": "CursorKind.CXX_NEW_EXPR"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "p",
+            "nephews": [],
+            "parent": "CursorKind.CXX_NEW_EXPR",
+            "positionInGrandParent": 1,
+            "positionInParent": 0,
+            "siblings": [
+                "Person"
+            ],
+            "uncles": [
+                "class Person"
+            ]
+        },
+        "token": "class Person"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "p",
+            "nephews": [],
+            "parent": "CursorKind.CXX_NEW_EXPR",
+            "positionInGrandParent": 1,
+            "positionInParent": 1,
+            "siblings": [
+                "class Person"
+            ],
+            "uncles": [
+                "class Person"
+            ]
+        },
+        "token": "Person"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "main",
+            "nephews": [
+                "p"
+            ],
+            "parent": "CursorKind.COMPOUND_STMT",
+            "positionInGrandParent": 0,
+            "positionInParent": 1,
+            "siblings": [
+                "CursorKind.DECL_STMT"
+            ],
+            "uncles": []
+        },
+        "token": "CursorKind.DECL_STMT"
+    },
+    {
+        "context": {
+            "cousins": [
+                "p"
+            ],
+            "grandParent": "CursorKind.COMPOUND_STMT",
+            "nephews": [],
+            "parent": "CursorKind.DECL_STMT",
+            "positionInGrandParent": 1,
+            "positionInParent": 0,
+            "siblings": [],
+            "uncles": [
+                "CursorKind.DECL_STMT"
+            ]
+        },
+        "token": "bagofpersons"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "CursorKind.DECL_STMT",
+            "nephews": [],
+            "parent": "bagofpersons",
+            "positionInGrandParent": 0,
+            "positionInParent": 0,
+            "siblings": [
+                "class Person",
+                "CursorKind.INTEGER_LITERAL",
+                "Bag"
+            ],
+            "uncles": []
+        },
+        "token": "Bag"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "CursorKind.DECL_STMT",
+            "nephews": [],
+            "parent": "bagofpersons",
+            "positionInGrandParent": 0,
+            "positionInParent": 1,
+            "siblings": [
+                "Bag",
+                "CursorKind.INTEGER_LITERAL",
+                "Bag"
+            ],
+            "uncles": []
+        },
+        "token": "class Person"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "CursorKind.DECL_STMT",
+            "nephews": [],
+            "parent": "bagofpersons",
+            "positionInGrandParent": 0,
+            "positionInParent": 2,
+            "siblings": [
+                "Bag",
+                "class Person",
+                "Bag"
+            ],
+            "uncles": []
+        },
+        "token": "CursorKind.INTEGER_LITERAL"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "CursorKind.DECL_STMT",
+            "nephews": [],
+            "parent": "bagofpersons",
+            "positionInGrandParent": 0,
+            "positionInParent": 3,
+            "siblings": [
+                "Bag",
+                "class Person",
+                "CursorKind.INTEGER_LITERAL"
+            ],
+            "uncles": []
+        },
+        "token": "Bag"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "",
+            "nephews": [
+                "CursorKind.FLOATING_LITERAL",
+                "CursorKind.INTEGER_LITERAL",
+                "value",
+                "i",
+                "CursorKind.COMPOUND_STMT"
+            ],
+            "parent": "/home/yannick/Documents/implementation_2.0/Bug_Detector/AST_EMBEDDING/data/example2.c",
+            "positionInGrandParent": -1,
+            "positionInParent": 0,
+            "siblings": [
+                "val",
+                "res",
+                "operation"
+            ],
+            "uncles": []
+        },
+        "token": "i"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "",
+            "nephews": [
+                "CursorKind.INTEGER_LITERAL",
+                "value",
+                "i",
+                "CursorKind.COMPOUND_STMT"
+            ],
+            "parent": "/home/yannick/Documents/implementation_2.0/Bug_Detector/AST_EMBEDDING/data/example2.c",
+            "positionInGrandParent": -1,
+            "positionInParent": 1,
+            "siblings": [
+                "i",
+                "res",
+                "operation"
+            ],
+            "uncles": []
+        },
+        "token": "val"
+    },
+    {
+        "context": {
+            "cousins": [
+                "CursorKind.INTEGER_LITERAL",
+                "value",
+                "i",
+                "CursorKind.COMPOUND_STMT"
+            ],
+            "grandParent": "/home/yannick/Documents/implementation_2.0/Bug_Detector/AST_EMBEDDING/data/example2.c",
+            "nephews": [],
+            "parent": "val",
+            "positionInGrandParent": 1,
+            "positionInParent": 0,
+            "siblings": [],
+            "uncles": [
+                "i",
+                "res",
+                "operation"
+            ]
+        },
+        "token": "CursorKind.FLOATING_LITERAL"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "",
+            "nephews": [
+                "CursorKind.FLOATING_LITERAL",
+                "value",
+                "i",
+                "CursorKind.COMPOUND_STMT"
+            ],
+            "parent": "/home/yannick/Documents/implementation_2.0/Bug_Detector/AST_EMBEDDING/data/example2.c",
+            "positionInGrandParent": -1,
+            "positionInParent": 2,
+            "siblings": [
+                "i",
+                "val",
+                "operation"
+            ],
+            "uncles": []
+        },
+        "token": "res"
+    },
+    {
+        "context": {
+            "cousins": [
+                "CursorKind.FLOATING_LITERAL",
+                "value",
+                "i",
+                "CursorKind.COMPOUND_STMT"
+            ],
+            "grandParent": "/home/yannick/Documents/implementation_2.0/Bug_Detector/AST_EMBEDDING/data/example2.c",
+            "nephews": [],
+            "parent": "res",
+            "positionInGrandParent": 2,
+            "positionInParent": 0,
+            "siblings": [],
+            "uncles": [
+                "i",
+                "val",
+                "operation"
+            ]
+        },
+        "token": "CursorKind.INTEGER_LITERAL"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "",
+            "nephews": [
+                "CursorKind.FLOATING_LITERAL",
+                "CursorKind.INTEGER_LITERAL"
+            ],
+            "parent": "/home/yannick/Documents/implementation_2.0/Bug_Detector/AST_EMBEDDING/data/example2.c",
+            "positionInGrandParent": -1,
+            "positionInParent": 3,
+            "siblings": [
+                "i",
+                "val",
+                "res"
+            ],
+            "uncles": []
+        },
+        "token": "operation"
+    },
+    {
+        "context": {
+            "cousins": [
+                "CursorKind.FLOATING_LITERAL",
+                "CursorKind.INTEGER_LITERAL"
+            ],
+            "grandParent": "/home/yannick/Documents/implementation_2.0/Bug_Detector/AST_EMBEDDING/data/example2.c",
+            "nephews": [
+                "CursorKind.DECL_STMT",
+                "CursorKind.BINARY_OPERATOR",
+                "CursorKind.RETURN_STMT"
+            ],
+            "parent": "operation",
+            "positionInGrandParent": 3,
+            "positionInParent": 0,
+            "siblings": [
+                "i",
+                "CursorKind.COMPOUND_STMT"
+            ],
+            "uncles": [
+                "i",
+                "val",
+                "res"
+            ]
+        },
+        "token": "value"
+    },
+    {
+        "context": {
+            "cousins": [
+                "CursorKind.FLOATING_LITERAL",
+                "CursorKind.INTEGER_LITERAL"
+            ],
+            "grandParent": "/home/yannick/Documents/implementation_2.0/Bug_Detector/AST_EMBEDDING/data/example2.c",
+            "nephews": [
+                "CursorKind.DECL_STMT",
+                "CursorKind.BINARY_OPERATOR",
+                "CursorKind.RETURN_STMT"
+            ],
+            "parent": "operation",
+            "positionInGrandParent": 3,
+            "positionInParent": 1,
+            "siblings": [
+                "value",
+                "CursorKind.COMPOUND_STMT"
+            ],
+            "uncles": [
+                "i",
+                "val",
+                "res"
+            ]
+        },
+        "token": "i"
+    },
+    {
+        "context": {
+            "cousins": [
+                "CursorKind.FLOATING_LITERAL",
+                "CursorKind.INTEGER_LITERAL"
+            ],
+            "grandParent": "/home/yannick/Documents/implementation_2.0/Bug_Detector/AST_EMBEDDING/data/example2.c",
+            "nephews": [],
+            "parent": "operation",
+            "positionInGrandParent": 3,
+            "positionInParent": 2,
+            "siblings": [
+                "value",
+                "i"
+            ],
+            "uncles": [
+                "i",
+                "val",
+                "res"
+            ]
+        },
+        "token": "CursorKind.COMPOUND_STMT"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "operation",
+            "nephews": [
+                "res",
+                "CursorKind.BINARY_OPERATOR",
+                "res"
+            ],
+            "parent": "CursorKind.COMPOUND_STMT",
+            "positionInGrandParent": 2,
+            "positionInParent": 0,
+            "siblings": [
+                "CursorKind.BINARY_OPERATOR",
+                "CursorKind.RETURN_STMT"
+            ],
+            "uncles": [
+                "value",
+                "i"
+            ]
+        },
+        "token": "CursorKind.DECL_STMT"
+    },
+    {
+        "context": {
+            "cousins": [
+                "res",
+                "CursorKind.BINARY_OPERATOR",
+                "res"
+            ],
+            "grandParent": "CursorKind.COMPOUND_STMT",
+            "nephews": [],
+            "parent": "CursorKind.DECL_STMT",
+            "positionInGrandParent": 0,
+            "positionInParent": 0,
+            "siblings": [],
+            "uncles": [
+                "CursorKind.BINARY_OPERATOR",
+                "CursorKind.RETURN_STMT"
+            ]
+        },
+        "token": "res"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "operation",
+            "nephews": [
+                "res",
+                "res"
+            ],
+            "parent": "CursorKind.COMPOUND_STMT",
+            "positionInGrandParent": 2,
+            "positionInParent": 1,
+            "siblings": [
+                "CursorKind.DECL_STMT",
+                "CursorKind.RETURN_STMT"
+            ],
+            "uncles": [
+                "value",
+                "i"
+            ]
+        },
+        "token": "CursorKind.BINARY_OPERATOR"
+    },
+    {
+        "context": {
+            "cousins": [
+                "res",
+                "res"
+            ],
+            "grandParent": "CursorKind.COMPOUND_STMT",
+            "nephews": [
+                "CursorKind.BINARY_OPERATOR",
+                "i"
+            ],
+            "parent": "CursorKind.BINARY_OPERATOR",
+            "positionInGrandParent": 1,
+            "positionInParent": 0,
+            "siblings": [
+                "CursorKind.BINARY_OPERATOR"
+            ],
+            "uncles": [
+                "CursorKind.DECL_STMT",
+                "CursorKind.RETURN_STMT"
+            ]
+        },
+        "token": "res"
+    },
+    {
+        "context": {
+            "cousins": [
+                "res",
+                "res"
+            ],
+            "grandParent": "CursorKind.COMPOUND_STMT",
+            "nephews": [],
+            "parent": "CursorKind.BINARY_OPERATOR",
+            "positionInGrandParent": 1,
+            "positionInParent": 1,
+            "siblings": [
+                "res"
+            ],
+            "uncles": [
+                "CursorKind.DECL_STMT",
+                "CursorKind.RETURN_STMT"
+            ]
+        },
+        "token": "CursorKind.BINARY_OPERATOR"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "CursorKind.BINARY_OPERATOR",
+            "nephews": [
+                "i"
+            ],
+            "parent": "CursorKind.BINARY_OPERATOR",
+            "positionInGrandParent": 1,
+            "positionInParent": 0,
+            "siblings": [
+                "i"
+            ],
+            "uncles": [
+                "res"
+            ]
+        },
+        "token": "CursorKind.BINARY_OPERATOR"
+    },
+    {
+        "context": {
+            "cousins": [
+                "i"
+            ],
+            "grandParent": "CursorKind.BINARY_OPERATOR",
+            "nephews": [
+                "i"
+            ],
+            "parent": "CursorKind.BINARY_OPERATOR",
+            "positionInGrandParent": 0,
+            "positionInParent": 0,
+            "siblings": [
+                "i"
+            ],
+            "uncles": [
+                "i"
+            ]
+        },
+        "token": "value"
+    },
+    {
+        "context": {
+            "cousins": [
+                "i"
+            ],
+            "grandParent": "CursorKind.BINARY_OPERATOR",
+            "nephews": [],
+            "parent": "value",
+            "positionInGrandParent": 0,
+            "positionInParent": 0,
+            "siblings": [],
+            "uncles": [
+                "i"
+            ]
+        },
+        "token": "value"
+    },
+    {
+        "context": {
+            "cousins": [
+                "i"
+            ],
+            "grandParent": "CursorKind.BINARY_OPERATOR",
+            "nephews": [
+                "value"
+            ],
+            "parent": "CursorKind.BINARY_OPERATOR",
+            "positionInGrandParent": 0,
+            "positionInParent": 1,
+            "siblings": [
+                "value"
+            ],
+            "uncles": [
+                "i"
+            ]
+        },
+        "token": "i"
+    },
+    {
+        "context": {
+            "cousins": [
+                "value"
+            ],
+            "grandParent": "CursorKind.BINARY_OPERATOR",
+            "nephews": [],
+            "parent": "i",
+            "positionInGrandParent": 1,
+            "positionInParent": 0,
+            "siblings": [],
+            "uncles": [
+                "value"
+            ]
+        },
+        "token": "i"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "i",
+            "nephews": [],
+            "parent": "i",
+            "positionInGrandParent": 0,
+            "positionInParent": 0,
+            "siblings": [],
+            "uncles": []
+        },
+        "token": "i"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "CursorKind.BINARY_OPERATOR",
+            "nephews": [
+                "value",
+                "i"
+            ],
+            "parent": "CursorKind.BINARY_OPERATOR",
+            "positionInGrandParent": 1,
+            "positionInParent": 1,
+            "siblings": [
+                "CursorKind.BINARY_OPERATOR"
+            ],
+            "uncles": [
+                "res"
+            ]
+        },
+        "token": "i"
+    },
+    {
+        "context": {
+            "cousins": [
+                "value",
+                "i"
+            ],
+            "grandParent": "CursorKind.BINARY_OPERATOR",
+            "nephews": [],
+            "parent": "i",
+            "positionInGrandParent": 1,
+            "positionInParent": 0,
+            "siblings": [],
+            "uncles": [
+                "CursorKind.BINARY_OPERATOR"
+            ]
+        },
+        "token": "i"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "i",
+            "nephews": [],
+            "parent": "i",
+            "positionInGrandParent": 0,
+            "positionInParent": 0,
+            "siblings": [],
+            "uncles": []
+        },
+        "token": "i"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "operation",
+            "nephews": [
+                "res",
+                "res",
+                "CursorKind.BINARY_OPERATOR"
+            ],
+            "parent": "CursorKind.COMPOUND_STMT",
+            "positionInGrandParent": 2,
+            "positionInParent": 2,
+            "siblings": [
+                "CursorKind.DECL_STMT",
+                "CursorKind.BINARY_OPERATOR"
+            ],
+            "uncles": [
+                "value",
+                "i"
+            ]
+        },
+        "token": "CursorKind.RETURN_STMT"
+    },
+    {
+        "context": {
+            "cousins": [
+                "res",
+                "res",
+                "CursorKind.BINARY_OPERATOR"
+            ],
+            "grandParent": "CursorKind.COMPOUND_STMT",
+            "nephews": [],
+            "parent": "CursorKind.RETURN_STMT",
+            "positionInGrandParent": 2,
+            "positionInParent": 0,
+            "siblings": [],
+            "uncles": [
+                "CursorKind.DECL_STMT",
+                "CursorKind.BINARY_OPERATOR"
+            ]
+        },
+        "token": "res"
+    },
+    {
+        "context": {
+            "cousins": [],
+            "grandParent": "CursorKind.RETURN_STMT",
+            "nephews": [],
+            "parent": "res",
+            "positionInGrandParent": 0,
+            "positionInParent": 0,
+            "siblings": [],
+            "uncles": []
+        },
+        "token": "res"
+    }
+]

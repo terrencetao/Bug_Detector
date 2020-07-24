@@ -10,20 +10,29 @@ requiments
 *AST_EMBEDDING
 
    -compilateur clang : module qui nous permet de manipuler l'ast
+
        sudo apt install clang
+
        sudo apt install libclang-dev
        
    -module python
       - clang
+
       - regex
+
       - subprocess32a
+
       -json
       
 *CNN-TEST-CLASSIFICATION
 
+   -python>=3.0
+
    -numpy
    
-   -tensorflow version=1
+   -tensorflow>=2.0
+
+   -keras
    
 -Learning AST_EMBEDDING :
 --------------------------

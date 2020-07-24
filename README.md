@@ -58,4 +58,4 @@ requiments
 --------------------------------
 Executer les etapes suvantes  depuis le dossier cnn-test-classifier :
 
-  python trainModel.py
+    python trainModel.py

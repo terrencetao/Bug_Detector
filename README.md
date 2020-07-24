@@ -1,21 +1,21 @@
 # implementation_bug_detector
 Overview
 ----------
-*AST_EMBEDDING : contient l'implementation de la AST-EMBEDDING pour le language c/c++
+    *AST_EMBEDDING : contient l'implementation de la AST-EMBEDDING pour le language c/c++
 
-*cnn-text-classification: contient l'implementation du CNN pour la classification binaire(texte positif ou negatif) de texte 
+    *cnn-text-classification: contient l'implementation du CNN pour la classification binaire(texte positif ou negatif) de texte 
 
 requiments
 ------------
-*AST_EMBEDDING
+  *AST_EMBEDDING
 
-   -compilateur clang : module qui nous permet de manipuler l'ast
+    -compilateur clang : module qui nous permet de manipuler l'ast
 
        sudo apt install clang
 
        sudo apt install libclang-dev
        
-   -module python
+    -module python
       - clang
 
       - regex
@@ -24,15 +24,15 @@ requiments
 
       -json
       
-*CNN-TEST-CLASSIFICATION
+  *CNN-TEST-CLASSIFICATION
 
-   -python>=3.0
+    -python>=3.0
 
-   -numpy
+    -numpy
    
-   -tensorflow>=2.0
+    -tensorflow>=2.0
 
-   -keras
+    -keras
    
 -Learning AST_EMBEDDING :
 --------------------------

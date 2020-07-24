@@ -47,12 +47,6 @@ requiments
   
 -Entrainer et Evaluer  CNN :
 --------------------------------
-Executer les etapes suvantes  depuis le dossier cnn-text-classification :
+Executer les etapes suvantes  depuis le dossier cnn-test-classifier :
 
-  step 1 : entrainer le CNN
-  
-     python train.py
-     
-  step 2 : evaluer le CNN
-  
-     python eval.py
+  python trainModel.py
